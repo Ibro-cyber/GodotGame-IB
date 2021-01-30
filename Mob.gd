@@ -19,4 +19,5 @@ func _ready():
 
 
 func _on_VisibilityNotifier2D_screen_exited():
-	pass # Replace with function body.
+	queue_free()
+
